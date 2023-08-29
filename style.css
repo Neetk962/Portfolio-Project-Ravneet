@@ -1,5 +1,32 @@
+
+
+/* added wild card operator, applies to everything */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+/* main point of focus on we page */
+.hero{
+    height:100vh;
+    width: 100%;
+}
+   
+    
+/* CSS for nav bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
 h1 {
-    color: blueviolet;
+    color:blue
 }
 
 h2{
@@ -10,3 +37,40 @@ h2{
     height: 400px;
     width: 400px;
 }
+
+#about-me {
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: brown;
+}
+
+#ravneets-portfolio {
+    height: auto;
+    display: flex;
+    color:coral
+    
+}
+
+#contact-ravneet {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: darkgreen;
+}
+/* button added, styled with css  */
+.btn {
+    border: none;
+    background-color: hsl(318, 100%, 27%);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+      0px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+  }
