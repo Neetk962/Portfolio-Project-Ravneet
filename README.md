@@ -14,7 +14,8 @@ Screenshot
 
 
 
-User website, naviagate to the website and view my portfolio. 
+User website, navigate to the website and view my portfolio. 
+Deployed link: https://neetk962.github.io/Portfolio-Project-Ravneet/
 
 
 ## Credits:
